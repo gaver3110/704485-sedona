@@ -20,10 +20,9 @@
     </ul>
   </nav>
 
-   <a class="main logo">
-    <img src="img/main.png" alt="Sedona">
+   <a class="main-logo">
+    <img src="img/sedona.svg" alt="Sedona">
   </a>
-
 
 
 
@@ -31,13 +30,19 @@
 
   <main>
 
-<a class="main heder">
-	<img src="img/mainhed.png" width="459" height="353"  alt="welcome">
+<a class="main-heder">
+	<img src="img/welcome.svg" width="459" height="353"  alt="welcome">
   </a>
+    <a class="indexmain">
+      <img src="img/indexmain.jpg" alt="main"> 
+      <img src="img/mask.svg" alt="mask"> 
+  </a>
+
 		<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
 			<p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
 
     <section class="info1">
+        <img src="img/town.jpg" width="" height=""  alt="">
       <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
       <p>-№1-</p>
       <p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
@@ -45,19 +50,19 @@
 
 <section class="sedonainfo">
   <ul>
-	<li>
-	<img src="#" alt="house">
+	  <li>
+	<img src="img/house.svg" alt="house">
 	<h3>ЖИЛЬЕ</h3>
       <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 		</li>
 <li>
-	<img src="#" alt="food">
+	<img src="img/food.svg"  alt="food">
     <h3>ЕДА</h3>
       <p>ВСЕГДА ЗАКАЗЫВАЙТЕ БУРГЕР,ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
 </li>
 
 	  <li>
-	  <img src="#" alt="presents">
+	  <img src="img/presents.svg" alt="presents">
     <h3>СУВЕНИРЫ</h3>
       <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
 	  </li>
@@ -65,6 +70,7 @@
   </section>
 
     <section class="info2">
+        <img src="img/canyon.jpg" width="" height=""  alt="">
       <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
         <p>-№2-</p>
           <p>ДА ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ.</p>
@@ -89,44 +95,58 @@
 						<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ!</p>
 	</li>
 </ul>
+  <section class="appointment">
+    <h2>ЗАИНТЕРИСОВАЛИСЬ?</h2>
+    <p class="appointment-info">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<br>
+      И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ.
+  </p>
 
-      <h2>ЗАИНТЕРИСОВАЛИСЬ?</h2>
-      <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<br>
-        И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ.
-    </p>
-
+  
+  <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ:</p>
+    <ul>
+    <li class="appointment-item">
+        <label for="appointment-date">Дата заезда:</label>
+        <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
+    </li>
+      <li class="appointment-item">
+          <label for="appointment-date">Дата выезда:</label>
+          <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
+      </li>
+        <li class="appointment-item">
+            <label for="appointment-people">Взрослые:</label>
+            <input id="appointment-people" type="text" name="people" value="" placeholder="Кол-во взрослых">
+        </li>
+          <li class="appointment-item">
+              <label for="appointment-children">Дети:</label>
+              <input id="appointment-children" type="text" name="children" value="" placeholder="Кол-во детей">
+          </li>
+            </ul>
+          <button class="button" type="submit">НАЙТИ</button>
+        </form>
+</section>
+   
+</section>
     <div class="map">
-      <a><img src="img/map.jpg">
+      <a><img src="img/map.png">
       </a>
     </div>
 
 </section>
-
-  <section class="search">
-      <p>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ:</p>
-      <ul>
-          <li>ДАТА ЗАЕЗДА:</li>
-            <img src="img/calendar.png" alt="calendar">
-          <li>ДАТА ВЫЕЗДА:</li>
-            <img src="img/calendar.png" alt="calendar">
-          <li>ВЗРОCЛЫЕ:</li>
-            <li>ДЕТИ:</li>
-      </ul>
-    </section>
   </section>
         </main>
 
   <footer class="main-footer">
     <div class="footer-social">
         <ul>
-          <li><a class="social-button" href="#"><img src="img/youtube.png" alt="youtube">youtube</a></li>
-          <li><a class="social-button" href="#"><img src="img/fb.jpg" alt="facebook">facebook</a></li>
-          <li><a class="social-button" href="#"><img src="img/twitter.png" alt="twitter">twitter</a></li>
+          <li><a class="social-button" href="#"><img src="img/youtube.svg" alt="youtube">youtube</a></li>
+          <li><a class="social-button" href="#"><img src="img/fb.svg" alt="facebook">facebook</a></li>
+          <li><a class="social-button" href="#"><img src="img/twitter.svg" alt="twitter">twitter</a></li>
         </ul>
       </div>
       <p class="footer-copyright">
         <b>Разработано:</b>
-		<img src="img/academy.png" alt="HTML ACADEMY">
+		<img src="img/academy.svg" alt="HTML ACADEMY">
         <a class="button" href="https://htmlacademy.ru">
         </a>
       </p>
