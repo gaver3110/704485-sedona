@@ -8,10 +8,13 @@
 </head>
 
 <body>
-
+  <div class="container">
   <header class="main-heder">
+      <a class="main-logo">
+          <img src="img/sedona.svg" width="140" height="72" alt="Sedona">
+        </a>
   <nav class="main-navigation">
-    <ul class="sait-navigation">
+    <ul class="navigation-menu">
       <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
         <li><a href="photo.html">ФОТО И ВИДЕО</a></li>
           <li><a href="map.html">КАРТА ШТАТА</a></li>
@@ -20,78 +23,84 @@
     </ul>
   </nav>
 
-   <a class="main-logo">
-    <img src="img/sedona.svg" alt="Sedona">
-  </a>
-
-
-
 </header>
 
   <main>
 
-<a class="main-heder">
-	<img src="img/welcome.svg" width="459" height="353"  alt="welcome">
-  </a>
+      <div class="mountains-with-text">
+    <h2 class="visually-hidden">Welcome to Sedona</h2>
+  <img src="img/welcome.svg" width="459" height="353"  alt="welcome">
+  
     <a class="indexmain">
-      <img src="img/indexmain.jpg" alt="main"> 
-      <img src="img/mask.svg" alt="mask"> 
+      <img src="img/indexmain.jpg" width="1200" height="800" alt="main">     
   </a>
+  </div>
 
-		<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+  <section class="advantage">
+<div class="description">
+		<h1>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
 			<p>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</p>
-
-    <section class="info1">
-        <img src="img/town.jpg" width="" height=""  alt="">
+</div>
+  </section>
+    <section class="advantage">
+      <div class="img-right">
+      <p class="visually-hidden">Изображение города</p>
+        <img src="img/town.jpg" width="800" height="401"  alt="town">
+        </div>
+     <div class="text-left">
       <h3>НАСТОЯЩИЙ ГОРОДОК</h3>
-      <p>-№1-</p>
+      <span>-№1-</span>
       <p>СЕДОНА - НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+      </div>
     </section>
 
-<section class="sedonainfo">
+<section class="advantage">
   <ul>
-	  <li>
-	<img src="img/house.svg" alt="house">
+	  <li class="house">
+	<img src="img/house.svg" width="75" height="72" alt="house">
 	<h3>ЖИЛЬЕ</h3>
       <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
 		</li>
-<li>
-	<img src="img/food.svg"  alt="food">
+<li class="food">
+	<img src="img/food.svg" width="74" height="70" alt="food">
     <h3>ЕДА</h3>
       <p>ВСЕГДА ЗАКАЗЫВАЙТЕ БУРГЕР,ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</p>
 </li>
 
-	  <li>
-	  <img src="img/presents.svg" alt="presents">
+	  <li class="presents">
+	  <img src="img/presents.svg" width="64" height="76"  alt="presents">
     <h3>СУВЕНИРЫ</h3>
       <p>НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</p>
 	  </li>
 </ul>
   </section>
 
-    <section class="info2">
-        <img src="img/canyon.jpg" width="" height=""  alt="">
-      <h3>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
-        <p>-№2-</p>
+    <section class="advantage">
+      <div class="img-left">
+    <p class="visually-hidden">Изображение Моста ДЬЯВОЛА</p>
+        <img src="img/canyon.jpg" width="800" height="400"  alt="canyon">
+        </div>
+      <h3>ТАМ ЕСТЬ<br> МОСТ ДЬЯВОЛА</h3>
+        <span>-№2-</span>
           <p>ДА ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО ВЫ ОСМЕЛИТЕСЬ.</p>
     </section>
 
-<section class="sedonamap">
+<section class="advantage">
 
   <ul>
 <li>
 	<h3>НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-      <p>-№3-</p>
-      <p>ВСЕ ДОСЬОПРИМЕЧАТЕЛЬНОСТИ НАХОДЯТЬСЯ ОЧЕНЬ БЛИЗКО</p>
+      <span>-№3-</span>
+      <p>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br> НАХОДЯТЬСЯ ОЧЕНЬ БЛИЗКО</p>
 	  </li>
 <li>
     <h3>КРАСИВАЯ ДОРОГА</h3>
-		<p>-№4-</p>
-			<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+		<span>-№4-</span>
+			<p>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ<br> НЕ СКУЧНО!</p>
 </li>
 	<li>
 				<h3>МАЛО ТУРИСТОВ</h3>
-					<p>-№5-</p>
+					<span>-№5-</span>
 						<p>БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ!</p>
 	</li>
 </ul>
@@ -99,41 +108,61 @@
     <h2>ЗАИНТЕРИСОВАЛИСЬ?</h2>
     <p class="appointment-info">УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ<br>
       И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ.
+    
   </p>
 
-  
-  <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-      <p>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ:</p>
-    <ul>
-    <li class="appointment-item">
-        <label for="appointment-date">Дата заезда:</label>
-        <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
-    </li>
-      <li class="appointment-item">
-          <label for="appointment-date">Дата выезда:</label>
-          <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
-      </li>
-        <li class="appointment-item">
-            <label for="appointment-people">Взрослые:</label>
-            <input id="appointment-people" type="text" name="people" value="" placeholder="Кол-во взрослых">
-        </li>
-          <li class="appointment-item">
-              <label for="appointment-children">Дети:</label>
-              <input id="appointment-children" type="text" name="children" value="" placeholder="Кол-во детей">
-          </li>
-            </ul>
-          <button class="button" type="submit">НАЙТИ</button>
-        </form>
+  <div class="search-form">
+
+      <a class="btn-search-hotel" href="#">Поиск гостиницы в седоне</a>
+
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <div class="check-block">
+          <label for="check-in-date">
+            <span class="date-check">Дата заезда:<input type="text" name="check-in-date" id="check-in-date" placeholder="24 апреля 2017">
+          </span>
+            </label>
+        </div>
+        <div class="departure-block">
+          <label for="date-of-departure">
+            <span class="date-departure">Дата выезда:<input type="text" name="date-of-departure" id="date-of-departure" placeholder="4 июля 2017">
+        </span>  
+            </label>
+        </div>
+        <div class="adult-block">
+          <div class="wrapper-adult">
+            <label for="adult">Взрослые:</label>
+            <span class="visually-hidden">минус</span>
+            <button class="button-number button-minus" type="button">-</button>
+            <input type="text" name="adult" id="adult" placeholder="2">
+            <span class="visually-hidden">плюс</span>
+            <button class="button-number button-plus" type="button">+</button>
+          </div>
+        </div>
+        <div class="child-block">
+          <div class="wrapper-child">
+            <label for="child">Дети:</label>
+            <span class="visually-hidden">минус</span>
+            <button class="button-number button-minus" type="button">-</button>
+            <input type="text" name="child" id="child" placeholder="0">
+            <span class="visually-hidden">плюс</span>
+            <button class="button-number button-plus" type="button">+</button>
+          </div>
+        </div>
+        <button class="button-search" type="submit">Найти</button>
+      </form>
+</div>
+
 </section>
    
 </section>
+
     <div class="map">
-      <a><img src="img/map.png">
+      <a><img src="img/map.png" width="800" height="400" alt="map">
       </a>
     </div>
 
-</section>
-  </section>
+
+
         </main>
 
   <footer class="main-footer">
@@ -146,7 +175,7 @@
       </div>
       <p class="footer-copyright">
         <b>Разработано:</b>
-		<img src="img/academy.svg" alt="HTML ACADEMY">
+		<img src="img/academy.svg" width="115" height="41" alt="HTML ACADEMY">
         <a class="button" href="https://htmlacademy.ru">
         </a>
       </p>
@@ -155,7 +184,7 @@
 
       </p>
   </footer>
-
+</div>
 </body>
 
   </html>
