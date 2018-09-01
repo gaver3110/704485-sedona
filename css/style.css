@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 1200px;
+	min-width: 768px;
+
+	background-color:#ffffff;
+	
+	
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.main-logo{
+	text-align: center;
+	width: 140px;
+	height: 72px;
+
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+  }
+  .main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	color:#000000;
+  list-style: none;
+	background-color: #ffffff;
+	}
+	.site-navigation,
+.user-navigation {
+	list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #000000;
+}
+
+.description{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+background-color: #81b3d2;
+color: #ffffff;
+
+}
+.img-right{
+	text-align: right;
+}
+.house{
+text-align: left;
+}
+.house img{
+	 text-align:left;
+}
+.food{
+	text-align: center;
+}
+.food img{
+	text-align: center;
+}
+.presents{
+	text-align: right;
+}
+.presents img{
+	text-align: left;
+}
+.text-right{
+text-align: right;
+background-color: #81b3d2;
+color: #ffffff;
+}
+.img-left{
+	text-align: left;
+}
+.advantage-item-gray{
+	background-color: #eeeeee;
+	color:#000000;
+}
+.appointment{
+	text-align: center;
+}
+.appointment-info{
+	text-align: center;
+}
+.btn-search-hotel{
+	background-color: #766357;
+	color: #ffffff;
+}
+.button-search{
+	background-color: #81b3d2;
+	color: #ffffff;
+}
